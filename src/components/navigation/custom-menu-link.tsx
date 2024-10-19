@@ -1,10 +1,23 @@
 import React from 'react';
+import { NavigationMenuLink, navigationMenuTriggerStyle } from "@/components/ui/navigation-menu";
+import Link from "next/link";
+import { NavigationMenuItem } from '@radix-ui/react-navigation-menu';
 
-function Link() {
+interface ICustomMenuLink {
+    children: React.ReactNode;
+    href: string;
+}
+
+function CustomMenuLink(props: ICustomMenuLink) {
     return (
-        <Link href="/docs" legacyBehavior passHref>
-            <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+        <NavigationMenuItem className={"uppercase"}>
+            <Link href={props.href} legacyBehavior passHref>
+                <NavigationMenuLink className={`${navigationMenuTriggerStyle()} uppercase`}>
+                    {props.children}
+                </NavigationMenuLink>
+            </Link>
+        </NavigationMenuItem>
     );
 }
 
-export default Link;
+export default CustomMenuLink;
