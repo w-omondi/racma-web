@@ -19,7 +19,7 @@ const contactSchema = z.object({
 
 type ContactFormData = z.infer<typeof contactSchema>;
 
-export function ContactPage() {
+export default function ContactPage() {
     const form = useForm<ContactFormData>({
         resolver: zodResolver(contactSchema),
         defaultValues: {
@@ -115,4 +115,3 @@ export function ContactPage() {
     );
 }
 
-export default ContactPage;
