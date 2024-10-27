@@ -19,6 +19,8 @@ export default function ServiceCard({image, title, description, features}: Servi
                 <Image
                     src={image}
                     alt={title}
+                    width={200}
+                    height={200}
                     className="w-full md:w-1/3 h-full object-cover md:mr-4"
                 />
                 <CardContent className="space-y-4 p-4 md:w-2/3">

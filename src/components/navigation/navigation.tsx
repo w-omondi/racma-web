@@ -13,6 +13,7 @@ import {CiMenuFries} from "react-icons/ci";
 import {Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger} from "@/components/ui/sheet";
 import {Button} from "@/components/ui/button";
 import {useState} from "react";
+import Link from "next/link";
 
 type Service = {
     name: string;
@@ -38,7 +39,9 @@ function Navigation() {
         <div className="w-full">
             <CustomContainer>
                 <div className="flex flex-row items-center justify-between py-4">
+                    <Link href={'/'}>
                     <div className="font-extrabold text-2xl text-primary">RACMA</div>
+                    </Link>
                     <NavigationMenu className={`hidden md:block`}>
                         <NavigationMenuList>
                             {services.map((menuItem) => {
