@@ -1,0 +1,122 @@
+[
+  {
+    "image": "/services-images/home-cleaning.jpg",
+    "title": "Home Cleaning Solutions",
+    "description": "Thorough and efficient cleaning for residential spaces.",
+    "features": [
+      "Carpet cleaning",
+      "Waste management",
+      "Fumigation and pest control",
+      "Spring cleaning",
+      "Upholstery and curtain cleaning",
+      "Gardening and landscaping"
+    ]
+  },
+  {
+    "image": "/services-images/home-cleaning.jpg",
+    "title": "Business Cleaning Solutions",
+    "description": "Tailored cleaning services for offices and commercial spaces.",
+    "features": [
+      "Office cleaning",
+      "Sanitary bin management",
+      "Upholstery and curtain cleaning",
+      "Waste management",
+      "Pest control and fumigation",
+      "Landscaping and gardening",
+      "Facade cleaning"
+    ]
+  },
+  {
+    "image": "/services-images/office-cleaning.jpg",
+    "title": "Car Cleaning Solutions",
+    "description": "Professional car cleaning for interiors and exteriors.",
+    "features": [
+      "Exterior body cleaning",
+      "Interior roof cleaning",
+      "Engine wash",
+      "Tire treatment and cleaning",
+      "Boot cleaning",
+      "Dashboard care",
+      "Floor and mat cleaning"
+    ]
+  },
+  {
+    "image": "/services-images/home-cleaning.jpg",
+    "title": "Industrial Cleaning Solutions",
+    "description": "Comprehensive cleaning solutions for industrial spaces.",
+    "features": [
+      "Industrial space cleaning",
+      "Industrial kitchen cleaning",
+      "Waste management",
+      "Landscaping and gardening",
+      "Sanitary bin management",
+      "Fumigation and pest control"
+    ]
+  },
+  {
+    "image": "/services-images/home-cleaning.jpg",
+    "title": "Medical Facility Cleaning",
+    "description": "Specialized cleaning services for hospitals, clinics, and labs.",
+    "features": [
+      "Infection control cleaning",
+      "Disinfection services",
+      "Sterilization procedures",
+      "Waste disposal compliance"
+    ]
+  },
+  {
+    "image": "/services-images/home-cleaning.jpg",
+    "title": "Fumigation and Pest Control",
+    "description": "Environmentally safe fumigation and pest control services.",
+    "features": [
+      "Cockroach control",
+      "Bed bug treatment",
+      "Rodent control",
+      "Eco-friendly pesticide application"
+    ]
+  },
+  {
+    "image": "/services-images/home-cleaning.jpg",
+    "title": "Sanitary Bin Services",
+    "description": "Hygienic sanitary bin solutions for business compliance.",
+    "features": [
+      "Bin installation",
+      "Regular bin maintenance",
+      "Waste disposal",
+      "Hygiene product supply"
+    ]
+  },
+  {
+    "image": "/services-images/home-cleaning.jpg",
+    "title": "Waste Management",
+    "description": "Certified waste management for responsible disposal.",
+    "features": [
+      "Recycling services",
+      "Hazardous waste disposal",
+      "Regular collection services",
+      "Compliance with local regulations"
+    ]
+  },
+  {
+    "image": "/services-images/home-cleaning.jpg",
+    "title": "Facade Cleaning",
+    "description": "Exterior building cleaning to remove dirt, stains, and pollutants.",
+    "features": [
+      "Window cleaning",
+      "Pressure washing",
+      "Gutter cleaning",
+      "Graffiti removal"
+    ]
+  },
+  {
+    "image": "/services-images/home-cleaning.jpg",
+    "title": "Gardening and Landscaping",
+    "description": "Professional landscaping for beautiful outdoor spaces.",
+    "features": [
+      "Garden design",
+      "Lawn maintenance",
+      "Tree and shrub planting",
+      "Seasonal clean-ups"
+    ]
+  }
+]

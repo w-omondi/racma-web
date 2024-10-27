@@ -1,12 +1,22 @@
-import React from 'react';
+import servicesData from './services.json'
+import ServiceCard from "@/components/services-card";
+import {Service} from "@/app/(screens)/services/interface";
 import CustomContainer from "@/components/custom-container";
 
-function Page() {
+export default function Services() {
     return (
         <CustomContainer>
-            <h1>Services Page</h1>
+            {/* Service Cards */}
+            {servicesData.map((service: Service, index) => (
+                <ServiceCard
+                    key={index}
+                    image={service.image}
+                    title={service.title}
+                    description={service.description}
+                    features={service.features}
+                />
+            ))}
+
         </CustomContainer>
     );
 }
-
-export default Page;
