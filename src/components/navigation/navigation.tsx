@@ -38,9 +38,9 @@ function Navigation() {
     return (
         <div className="w-full">
             <CustomContainer>
-                <div className="flex flex-row items-center justify-between py-4">
+                <div className="flex flex-row items-center justify-between py-2 border">
                     <Link href={'/'}>
-                    <div className="font-extrabold text-2xl text-primary">RACMA</div>
+                    <div className="font-extrabold text-2xl">Racma</div>
                     </Link>
                     <NavigationMenu className={`hidden md:block`}>
                         <NavigationMenuList>

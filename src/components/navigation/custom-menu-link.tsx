@@ -11,9 +11,9 @@ interface ICustomMenuLink {
 
 export default function CustomMenuLink(props: ICustomMenuLink) {
     return (
-        <NavigationMenuItem className={"uppercase"}>
+        <NavigationMenuItem className={"font-bold capitalize text-2xl"}>
             <Link href={props.href} legacyBehavior passHref>
-                <NavigationMenuLink className={`${navigationMenuTriggerStyle()} uppercase`}>
+                <NavigationMenuLink className={`${navigationMenuTriggerStyle()}`}>
                     {props.children}
                 </NavigationMenuLink>
             </Link>

@@ -3,15 +3,17 @@ import CustomContainer from "@/components/custom-container";
 import CustomCarousel from "@/components/custom-carousel";
 import {Card, CardContent, CardHeader, CardTitle} from "@/components/ui/card";
 import AnimatedList from "@/app/(screens)/(home-page)/animated-list";
+import Services from "@/app/(screens)/(home-page)/services";
 
 const Home = () => {
     return (
         <CustomContainer>
             <CustomCarousel/>
-            {/* Main Services Introduction */}
+            <Services/>
 
             <Card className="bg-[hsl(var(--card))] text-[hsl(var(--card-foreground))]">
                 <CardHeader>
+                    <CardTitle className="font-bold text-primary">About us</CardTitle>
                     <CardTitle className="text-xl font-bold">Professional Cleaning and Related Services</CardTitle>
                 </CardHeader>
                 <CardContent className="space-y-4">
