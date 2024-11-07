@@ -2,7 +2,6 @@ import React, {FC} from 'react';
 import {Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious} from "@/components/ui/carousel";
 import Image from "next/image";
 import {Button} from "@/components/ui/button";
-import {FiArrowUpRight} from "react-icons/fi";
 import LandingImage from "./landing.svg";
 
 function CustomCarousel() {

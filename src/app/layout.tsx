@@ -6,8 +6,8 @@ import TopNavigationSection from "@/components/navigation/top-navigation-section
 import {plusJakartaSans} from "@/components/ui/font";
 
 export const metadata: Metadata = {
-    title: "Racma Services",
-    description: "Professional Cleaning",
+    title: "Racma Services - Professional Cleaning Services in nairobi",
+    description: "Get top-rated professional cleaning services with Racma Services. We specialize in residential, commercial, and deep cleaning solutions. Book today!",
 };
 
 export default function RootLayout({
