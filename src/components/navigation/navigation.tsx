@@ -9,11 +9,12 @@ import {
     NavigationMenuTrigger,
 } from "@/components/ui/navigation-menu";
 import CustomContainer from "@/components/custom-container";
-import {CiMenuFries} from "react-icons/ci";
 import {Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger} from "@/components/ui/sheet";
 import {Button} from "@/components/ui/button";
 import {useState} from "react";
 import Link from "next/link";
+import Image from "next/image";
+import {MdOutlineMenu} from "react-icons/md";
 
 type Service = {
     name: string;
@@ -38,9 +39,10 @@ function Navigation() {
     return (
         <div className="w-full">
             <CustomContainer>
-                <div className="flex flex-row items-center justify-between py-2 border">
+                <div className="flex flex-row items-center justify-between py-2">
                     <Link href={'/'}>
-                    <div className="font-extrabold text-2xl">Racma</div>
+                        <Image src={"/logo.png"} width={200} height={200} className={"w-[150px] object-contain"}
+                               alt={"logo"}/>
                     </Link>
                     <NavigationMenu className={`hidden md:block`}>
                         <NavigationMenuList>
@@ -75,7 +77,7 @@ function Navigation() {
                     <Sheet open={open} onOpenChange={onOpenChangeHandler}>
 
                         <SheetTrigger className={"md:hidden"}>
-                            <CiMenuFries size={26}/>
+                            <MdOutlineMenu size={40}/>
                         </SheetTrigger>
 
                         <SheetContent className="w-full sm:w-[540px]">

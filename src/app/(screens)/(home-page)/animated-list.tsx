@@ -6,7 +6,7 @@ export default function AnimatedList() {
         { title: "Tools and Supplies", description: "Using specialized equipment and environmentally friendly cleaning products." },
         { title: "Deep Cleaning", description: "Focusing on areas often overlooked, such as carpets, upholstery, and hard-to-reach spots." },
         { title: "Routine Maintenance", description: "Offering scheduled cleanings to maintain consistent cleanliness." },
-        { title: "Customization", description: "Adapting our services to meet your specific needs." },
+        { title: "Customization", description: "Adapting our components to meet your specific needs." },
         { title: "Health and Safety", description: "Following strict protocols to ensure a clean, safe, and hygienic environment." },
     ];
 
