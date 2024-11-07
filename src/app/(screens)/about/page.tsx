@@ -55,7 +55,7 @@ const MissionAndVision = () => {
                 <div className={"w-full grid md:grid-cols-2 gap-4"}>
                     {missionVisions.map((section, index) => {
                         return (
-                            <div key={index} className="bg-white bg-primary/20 rounded-lg p-6 space-y-4">
+                            <div key={index} className="bg-primary/20 rounded-lg p-6 space-y-4">
                                 <div className="flex flex-col items-start space-y-4">
                                     {section.icon}
                                     <div className="text-2xl font-bold text-primary">{section.title}</div>
