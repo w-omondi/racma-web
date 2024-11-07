@@ -6,9 +6,9 @@ interface IPageContainer {
 
 function CustomContainer(props: IPageContainer) {
     return (
-        <main className={"container mx-auto space-y-4 px-4"}>
+        <div className={"container mx-auto space-y-4 px-4"}>
             {props.children}
-        </main>
+        </div>
     );
 }
 

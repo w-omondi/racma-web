@@ -3,14 +3,14 @@ import {Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious}
 import Image from "next/image";
 import {Button} from "@/components/ui/button";
 import LandingImage from "./landing.svg";
+import CustomContainer from "@/components/custom-container";
 
-function CustomCarousel() {
+function HomeCustomCarousel() {
     return (
-        <div className={"w-full"}>
+        <div className={"w-full py-8"}>
+            <CustomContainer>
             <Carousel
-            opts={{
-                loop: true,
-            }}
+                opts={{loop: true}}
             >
                 <CarouselContent>
 
@@ -24,11 +24,12 @@ function CustomCarousel() {
                 <CarouselNext className={"hidden"}/>
 
             </Carousel>
+            </CustomContainer>
         </div>
     );
 }
 
-export default CustomCarousel;
+export default HomeCustomCarousel;
 
 const SlideTemplate: FC = () => {
     return (

@@ -7,10 +7,11 @@ import {Service} from "@/app/(screens)/services/interface";
 
 interface ServiceCardProps2 extends Service {
     showFeatures?: boolean
+    removeActions?: boolean
 }
 
 function ServiceCard(props: ServiceCardProps2) {
-    const {image, title, description, features, showFeatures} = props;
+    const {image, title, description, features, showFeatures,removeActions} = props;
     return (
         <motion.div
             initial={{opacity: 0, y: 10}}
@@ -20,12 +21,12 @@ function ServiceCard(props: ServiceCardProps2) {
             className={"w-full space-y-3"}
         >
             <div
-                className={"w-full rounded-2xl overflow-hidden h- sm:h-[180px] md:h-[200px] xl:h-[200px] bg-secondary"}
+                className={"w-full rounded-2xl overflow-hidden h- sm:h-[180px] md:h-[200px] xl:h-[250px] bg-secondary/50"}
             >
                 <Image
                     src={image} alt={"card picture"}
                     width={500} height={500}
-                    className={"h-[200px] md:h-[200px] xl:h-[200px] object-contain"}
+                    className={"h-[200px] md:h-[200px] xl:h-[250px] object-fill"}
                 />
             </div>
             <div className={"font-bold text-xl"}>{title}</div>
@@ -39,7 +40,7 @@ function ServiceCard(props: ServiceCardProps2) {
                     ))}
                 </ul>
             )}
-            <Button variant={"outline"}>Book Now <FiArrowUpRight/></Button>
+            {!removeActions && <Button variant={"outline"}>Book Now <FiArrowUpRight/></Button>}
         </motion.div>
     );
 }

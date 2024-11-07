@@ -4,6 +4,7 @@ import Navigation from "@/components/navigation/navigation";
 import React from "react";
 import TopNavigationSection from "@/components/navigation/top-navigation-section";
 import {plusJakartaSans} from "@/components/ui/font";
+import Footer from "@/components/footer/footer";
 
 export const metadata: Metadata = {
     title: "Racma Services - Professional Cleaning Services in nairobi",
@@ -18,10 +19,11 @@ export default function RootLayout({
   return (
     <html lang="en">
     <body className={`${plusJakartaSans.className} antialiased`}>
-    <main className={"w-full min-h-[100vh] space-y-4"}>
+    <main className={"w-full min-h-[100vh]"}>
         <TopNavigationSection/>
         <Navigation/>
         {children}
+        <Footer/>
     </main>
     </body>
     </html>

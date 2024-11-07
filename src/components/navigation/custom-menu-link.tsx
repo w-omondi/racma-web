@@ -25,9 +25,16 @@ export default function CustomMenuLink(props: ICustomMenuLink) {
 export function CustomLink(props: ICustomMenuLink) {
     return (
         <Link href={props.href} onClick={props.onClick}
-              className={"capitalize p-2 hover:bg-gray-100 hover:text-primary rounded"}>
+              className={"capitalize hover:text-primary hover:underline hover:cursor-pointer "}>
             {props.children}
         </Link>
     );
 }
+
+export const CustomSheetLink =(props: ICustomMenuLink)=>(
+    <Link href={props.href} onClick={props.onClick}
+          className={"capitalize p-2 hover:bg-gray-100 hover:text-primary rounded"}>
+        {props.children}
+    </Link>
+)
 
