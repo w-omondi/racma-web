@@ -16,6 +16,7 @@ import Autoplay from "embla-carousel-autoplay"
 import {FiArrowUpRight} from "react-icons/fi";
 import {Button} from "@/components/ui/button";
 import CustomContainer from "@/components/custom-container";
+import {CustomLink} from "@/components/navigation/custom-menu-link";
 
 export default function HomePageServicesView() {
     return (
@@ -33,7 +34,7 @@ export default function HomePageServicesView() {
                 </div>
             </div>
             <Separator className={"w-full h-0.5 bg-primary"}/>
-            <HomePageServicesCarousel/>
+                    <HomePageServicesCarousel removeActions/>
             <SeeAllSections/>
                 </div>
             </CustomContainer>
@@ -44,8 +45,11 @@ export default function HomePageServicesView() {
 const SeeAllSections: FC = () => {
     return (
         <div className={"w-full flex justify-center items-center gap-4 p-4"}>
+            <CustomLink href={"/services"}>
             <Button variant={"outline"} size={"lg"} className={"text-lg font-medium"}>View all
-                services <FiArrowUpRight/></Button>
+                services <FiArrowUpRight/>
+            </Button>
+            </CustomLink>
         </div>
     )
 }
@@ -53,7 +57,7 @@ const SeeAllSections: FC = () => {
 export function HomePageServicesCarousel({removeActions}: { removeActions?: boolean }) {
     const [, setApi] = React.useState<CarouselApi>()
     const plugin = React.useRef(
-        Autoplay({delay: 2000, stopOnInteraction: true})
+        Autoplay({delay: 3000, stopOnInteraction: true})
     )
 
     return (

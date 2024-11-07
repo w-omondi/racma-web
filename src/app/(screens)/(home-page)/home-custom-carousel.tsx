@@ -2,8 +2,9 @@ import React, {FC} from 'react';
 import {Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious} from "@/components/ui/carousel";
 import Image from "next/image";
 import {Button} from "@/components/ui/button";
-import LandingImage from "./landing.svg";
+import LandingImage from "./landing.png";
 import CustomContainer from "@/components/custom-container";
+import {CustomLink} from "@/components/navigation/custom-menu-link";
 
 function HomeCustomCarousel() {
     return (
@@ -42,13 +43,19 @@ const SlideTemplate: FC = () => {
                 </div>
                 <p className={"font-medium text-lg"}>We provide performing cleaning task using the least amount of time, energy and money.</p>
                 <div className={"w-full grid grid-cols-1 sm:grid-cols-2 gap-4 items-center"}>
-                    <Button variant={"default"} size={"lg"} className={"font-bold "}>Get a quote </Button>
+                    <CustomLink href={"/contacts"}>
+                    <Button variant={"default"} size={"lg"} className={"w-full font-bold "}>Get a quote </Button>
+                    </CustomLink>
+
+                    <CustomLink href={"/about"}>
+                        <Button variant={"outline"} size={"lg"} className={"w-full font-bold "}>Learn more </Button>
+                    </CustomLink>
                 </div>
             </div>
             <Image
                 src={LandingImage}
                 alt={'slide 1'}
-                className={'w-full h-[30vh] md:h-[60vh] object-center'}
+                className={'w-full h-[30vh] md:h-[60vh] object-center object-contain'}
                 width={500}
                 height={500}
             />

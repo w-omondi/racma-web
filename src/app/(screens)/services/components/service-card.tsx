@@ -4,6 +4,7 @@ import {Button} from "@/components/ui/button";
 import {FiArrowUpRight} from "react-icons/fi";
 import * as motion from "framer-motion/client";
 import {Service} from "@/app/(screens)/services/interface";
+import {CustomLink} from "@/components/navigation/custom-menu-link";
 
 interface ServiceCardProps2 extends Service {
     showFeatures?: boolean
@@ -21,12 +22,12 @@ function ServiceCard(props: ServiceCardProps2) {
             className={"w-full space-y-3"}
         >
             <div
-                className={"w-full rounded-2xl overflow-hidden h- sm:h-[180px] md:h-[200px] xl:h-[250px] bg-secondary/50"}
+                className={"w-full rounded-2xl overflow-hidden h-[200px] xl:h-[250px] bg-secondary/50"}
             >
                 <Image
                     src={image} alt={"card picture"}
                     width={500} height={500}
-                    className={"h-[200px] md:h-[200px] xl:h-[250px] object-fill"}
+                    className={"h-[200px] xl:h-[250px] object-cover"}
                 />
             </div>
             <div className={"font-bold text-xl"}>{title}</div>
@@ -40,7 +41,11 @@ function ServiceCard(props: ServiceCardProps2) {
                     ))}
                 </ul>
             )}
-            {!removeActions && <Button variant={"outline"}>Book Now <FiArrowUpRight/></Button>}
+            {!removeActions &&
+                <CustomLink href={"/contacts"}>
+                    <Button variant={"outline"}>Book Now <FiArrowUpRight/></Button>
+                </CustomLink>
+            }
         </motion.div>
     );
 }

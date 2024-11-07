@@ -19,8 +19,8 @@ const TopArticle = () => {
     return (
         <div className={"w-full"}>
             <CustomContainer>
-                <div className={"w-full flex flex-col items-center gap-4"}>
-                    <div className="text-primary text-lg font-bold">About Us</div>
+                <div className={"w-full min-h-[40vh] flex flex-col justify-center items-center space-y-10"}>
+                    <div className="text-primary text-xl font-bold">Contact Us</div>
                     <div className="text-2xl md:text-4xl font-bold">Get in touch with our team.</div>
                     <p>We’re here to help make your space sparkle. Let us know how we can meet your cleaning needs!</p>
                 </div>
