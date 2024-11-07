@@ -45,7 +45,7 @@ export const sections = [
     ]
 ;
 
-export const missionVissions: Section<string>[] = [
+export const missionVisions: Section<string>[] = [
     {
         title: "Our Mission",
         content: [

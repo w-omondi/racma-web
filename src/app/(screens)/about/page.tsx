@@ -1,6 +1,6 @@
 import React from 'react';
 import CustomContainer from "@/components/custom-container";
-import {CoreValue, CoreValuesData, missionVissions, sections} from "@/app/(screens)/about/data";
+import {CoreValue, CoreValuesData, missionVisions, sections} from "@/app/(screens)/about/data";
 
 function Page() {
     return (
@@ -53,7 +53,7 @@ const MissionAndVision = () => {
         <div className={"w-full"}>
             <CustomContainer>
                 <div className={"w-full grid md:grid-cols-2 gap-4"}>
-                    {missionVissions.map((section, index) => {
+                    {missionVisions.map((section, index) => {
                         return (
                             <div key={index} className="bg-white bg-primary/20 rounded-lg p-6 space-y-4">
                                 <div className="flex flex-col items-start space-y-4">

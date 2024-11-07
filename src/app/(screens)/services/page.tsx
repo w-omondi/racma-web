@@ -5,8 +5,6 @@ import ServiceCard from "@/app/(screens)/services/components/service-card";
 import {HomePageServicesCarousel} from "@/app/(screens)/services/components/home-page-services-view";
 import {CustomLink} from "@/components/navigation/custom-menu-link";
 import {Button} from "@/components/ui/button";
-import {MdChat} from "react-icons/md";
-import {IoChatbubbleOutline} from "react-icons/io5";
 import {FiPhoneCall} from "react-icons/fi";
 
 export default function Services() {
