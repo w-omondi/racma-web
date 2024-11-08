@@ -11,7 +11,7 @@ interface ServiceCardProps2 extends Service {
     removeActions?: boolean
 }
 
-function ServiceCard(props: ServiceCardProps2) {
+export default function ServiceCard(props: ServiceCardProps2) {
     const {image, title, description, features, showFeatures,removeActions} = props;
     return (
         <motion.div
@@ -42,12 +42,12 @@ function ServiceCard(props: ServiceCardProps2) {
                 </ul>
             )}
             {!removeActions &&
-                <CustomLink href={"/contacts"}>
-                    <Button variant={"outline"}>Book Now <FiArrowUpRight/></Button>
-                </CustomLink>
+                <div className={"w-full"}>
+                    <CustomLink href={"/contacts"}>
+                        <Button variant={"outline"}>Book Now <FiArrowUpRight/></Button>
+                    </CustomLink>
+                </div>
             }
         </motion.div>
     );
 }
-
-export default ServiceCard;

@@ -1,6 +1,6 @@
 [
   {
-    "image": "/services-images/home-cleaning.jpg",
+    "image": "/services-images/home-cleaning-solutions.jpg",
     "title": "Home Cleaning Solutions",
     "description": "Thorough and efficient cleaning for residential spaces.",
     "features": [
@@ -13,7 +13,7 @@
     ]
   },
   {
-    "image": "/services-images/home-cleaning.jpg",
+    "image": "/services-images/business_cleaning_solutions.jpg",
     "title": "Business Cleaning Solutions",
     "description": "Tailored cleaning services for offices and commercial spaces.",
     "features": [
@@ -27,7 +27,7 @@
     ]
   },
   {
-    "image": "/services-images/office-cleaning.jpg",
+    "image": "/services-images/car-cleaning-solutions.jpg",
     "title": "Car Cleaning Solutions",
     "description": "Professional car cleaning for interiors and exteriors.",
     "features": [
@@ -41,7 +41,7 @@
     ]
   },
   {
-    "image": "/services-images/home-cleaning.jpg",
+    "image": "/services-images/industrial-cleaning-solutions.jpg",
     "title": "Industrial Cleaning Solutions",
     "description": "Comprehensive cleaning solutions for industrial spaces.",
     "features": [
@@ -54,7 +54,7 @@
     ]
   },
   {
-    "image": "/services-images/home-cleaning.jpg",
+    "image": "/services-images/medical-facility-cleaning.jpg",
     "title": "Medical Facility Cleaning",
     "description": "Specialized cleaning services for hospitals, clinics, and labs.",
     "features": [
@@ -65,7 +65,7 @@
     ]
   },
   {
-    "image": "/services-images/home-cleaning.jpg",
+    "image": "/services-images/fumigation-and-pest-control.jpg",
     "title": "Fumigation and Pest Control",
     "description": "Environmentally safe fumigation and pest control services.",
     "features": [
@@ -76,7 +76,7 @@
     ]
   },
   {
-    "image": "/services-images/home-cleaning.jpg",
+    "image": "/services-images/sanitary-bin-services.jpg",
     "title": "Sanitary Bin Services",
     "description": "Hygienic sanitary bin solutions for business compliance.",
     "features": [
@@ -87,7 +87,7 @@
     ]
   },
   {
-    "image": "/services-images/home-cleaning.jpg",
+    "image": "/services-images/waste-management.jpg",
     "title": "Waste Management",
     "description": "Certified waste management for responsible disposal.",
     "features": [
@@ -98,7 +98,7 @@
     ]
   },
   {
-    "image": "/services-images/home-cleaning.jpg",
+    "image": "/services-images/facade-cleaning.jpg",
     "title": "Facade Cleaning",
     "description": "Exterior building cleaning to remove dirt, stains, and pollutants.",
     "features": [
@@ -109,7 +109,7 @@
     ]
   },
   {
-    "image": "/services-images/home-cleaning.jpg",
+    "image": "/services-images/gardening-and-landscaping.jpg",
     "title": "Gardening and Landscaping",
     "description": "Professional landscaping for beautiful outdoor spaces.",
     "features": [

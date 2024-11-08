@@ -2,7 +2,7 @@ import React from 'react';
 import CustomContainer from "@/components/custom-container";
 import {CoreValue, CoreValuesData, missionVisions, sections} from "@/app/(screens)/about/data";
 
-function Page() {
+export default function Page() {
     return (
         <div className={"w-full space-y-6 py-6"}>
             <TopArticle/>
@@ -13,7 +13,6 @@ function Page() {
     );
 }
 
-export default Page;
 
 const TopArticle = () => {
     return (
