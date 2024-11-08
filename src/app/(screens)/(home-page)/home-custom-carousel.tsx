@@ -5,6 +5,7 @@ import {Button} from "@/components/ui/button";
 import LandingImage from "./landing.png";
 import CustomContainer from "@/components/custom-container";
 import {CustomLink} from "@/components/navigation/custom-menu-link";
+import {ArrowRight} from "lucide-react";
 
 function HomeCustomCarousel() {
     return (
@@ -48,7 +49,7 @@ const SlideTemplate: FC = () => {
                     </CustomLink>
 
                     <CustomLink href={"/about"}>
-                        <Button variant={"outline"} size={"lg"} className={"w-full font-bold "}>Learn more </Button>
+                        <Button variant={"outline"} size={"lg"} className={"w-full font-bold "}>Learn more <ArrowRight/></Button>
                     </CustomLink>
                 </div>
             </div>

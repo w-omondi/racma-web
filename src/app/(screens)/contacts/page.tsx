@@ -5,7 +5,6 @@ import ContactForm from "@/components/forms/contact-form";
 import {FC, JSX} from "react";
 import {MdEmail, MdLocationPin, MdPhone} from "react-icons/md";
 
-
 export default function ContactPage() {
     return (
         <div className="w-full min-h-[90vh] py-4 space-y-6">
